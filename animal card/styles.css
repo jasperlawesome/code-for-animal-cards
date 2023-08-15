@@ -1,0 +1,57 @@
+/* General style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Card style */
+.card {
+    width: 360px; /* 300px image width + 30px spacing on both sides */
+    border: 2px solid rgb(6, 174, 240);
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Card image style */
+.card-image {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto; /* Preserve aspect ratio */
+    border-radius: 8px;
+}
+
+/* Card information style */
+.card-info {
+    font-style: italic;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 225, 255);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* List style */
+.list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+/* List item style */
+.label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Interesting fact style */
+.interesting-fact {
+    font-style: italic;
+}
+
+/* Description style */
+.description {
+    font-size: 14px;
+    line-height: 1.5;
+}
